@@ -1,7 +1,7 @@
 # Requires: ImportExcel module, Git installed and configured
 
 param(
-    [string]$ExcelPath = "DevOps_Study_Tracker.xlsx"
+    [string]$ExcelPath = "D:\2303vijay\Script\DevOps\DevOps_Study_Tracker.xlsx"
 )
 
 if (-not (Test-Path $ExcelPath)) {
